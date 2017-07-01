@@ -19,7 +19,7 @@ var timeTests = []struct {
 	{0, 1723, "04:43"},     // minutes roll over continuously
 	{25, 160, "03:40"},     // hour and minutes roll over
 	{201, 3001, "11:01"},   // hour and minutes roll over continuously
-	{72, 8640, "00:00"},    // hour and minutes roll over to exactly midnight
+	{72, 8640, "00:00"},    // hour and minutes roll over to exactly midnight*/
 	{-1, 15, "23:15"},      // negative hour
 	{-25, 0, "23:00"},      // negative hour rolls over
 	{-91, 0, "05:00"},      // negative hour rolls over continuously
@@ -27,7 +27,7 @@ var timeTests = []struct {
 	{1, -160, "22:20"},     // negative minutes roll over
 	{1, -4820, "16:40"},    // negative minutes roll over continuously
 	{-25, -160, "20:20"},   // negative hour and minutes both roll over
-	{-121, -5810, "22:10"}, // negative hour and minutes both roll over continuously
+	{-121, -5810, "22:10"}, // negative hour and minutes both roll over continuously*/
 
 }
 
