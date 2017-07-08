@@ -1,5 +1,5 @@
 # exercism
 Learning different languages
 
-Fetch new problem: `exercism fetch`
-Submit solution: `exercism submit go/pangram/pangram.go`
+1. Fetch new problem: `exercism fetch`
+2. Submit solution: `exercism submit go/pangram/pangram.go`
